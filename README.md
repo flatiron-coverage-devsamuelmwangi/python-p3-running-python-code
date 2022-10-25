@@ -40,9 +40,8 @@ comfortable in this new environment!
 ## Creating a Python Application
 
 Let's dive right in. To get started on any new Python application, the first
-thing we need is a file. Fork and clone this lesson from GitHub, then create a
-new file in this repo's `lib/` directory called `app.py`. In this file, add
-the following:
+thing we need is a file. Create a new file in the `lib` directory called
+`app.py`. In this file, add the following:
 
 ```python
 # lib/app.py
@@ -103,9 +102,9 @@ What do you see when you execute `lib/app.py` from the command line?
 
 ```console
 $ python lib/app.py
-# => Hello world!
-# => Hello sun!
-# => Hello sky!
+Hello world!
+Hello sun!
+Hello sky!
 ```
 
 ***
@@ -116,7 +115,7 @@ Let's say you're writing a full paragraph and don't need a newline character
 after every sentence. `print()` can accommodate that through its optional `end`
 parameter. Try modifying your `print()` statements as follows:
 
-```py
+```python
 # lib/app.py
 print("Hello world!", end=" ")
 print("Hello sun!", end="!! ")
@@ -128,7 +127,7 @@ What do you see when you execute `lib/app.py` from the command line with these n
 
 ```console
 $ python lib/app.py
-# => Hello world! Hello sun!!! Hello sky!!!!
+Hello world! Hello sun!!! Hello sky!!!!
 ```
 
 `end` can be a string of any length, including characters like the newline `\n`.
